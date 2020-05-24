@@ -20,5 +20,5 @@ script:
 deploy:
   provider: heroku
   api-key: e388748b-bf32-425e-8ac0-109bf06485a6
-    secure: $code-test
+    secure: code-test
   app: brasildevops
