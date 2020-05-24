@@ -19,6 +19,6 @@ script:
 # Defini que o processo de Deploy será na Plataforma Heroku. É necessário informar o nome da APP criada no Heroku
 deploy:
   provider: heroku
-  api-key: e388748b-bf32-425e-8ac0-109bf06485a6
-    secure: code-test
+  api-key: 
+    secure: $code-test
   app: brasildevops
