@@ -20,5 +20,5 @@ script:
 deploy:
   provider: heroku 
   api-key: 
-    secure: code-go
+    secure: $code-go
   app: temqueir
